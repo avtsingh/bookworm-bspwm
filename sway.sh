@@ -23,7 +23,7 @@ xdg-user-dirs-update
 sudo apt install libpam0g-dev libxcb-xkb-dev
 
 # Required packages
-sudo apt install neovim neofetch firefox-esr grim slurp imv bc libreoffice thunderbird cups libreoffice-lightproof-en chromium heif-gdk-pixbuf timeshift mixxx inkscape gimp bleachbit vlc vlc-plugin-pipewire 
+sudo apt install neovim vim-scripts neofetch firefox-esr grim slurp imv bc libreoffice thunderbird cups cups-bsd cups-pdf libreoffice-lightproof-en chromium heif-gdk-pixbuf timeshift mixxx inkscape gimp bleachbit vlc vlc-plugin-pipewire 
 
 # ly install
 git clone --recurse-submodules https://github.com/fairyglade/ly
