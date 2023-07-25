@@ -1,9 +1,10 @@
 #!/bin/sh
 
-sudo apt install wayland-protocols xwayland build-essential mako-notifier
-
 # Sway installation
-sudo apt install sway waybar swaylock swayidle swaybg libgtk-layer-shell-dev xdg-desktop-portal-wlr wofi
+sudo apt install sway swayidle swaylock xdg-desktop-portal-wlr waybar wofi
+
+# Added packages
+sudo apt install wayland-protocols xwayland build-essential mako-notifier
 
 # Networking etc
 sudo apt install lxqt-policykit network-manager network-manager-gnome
